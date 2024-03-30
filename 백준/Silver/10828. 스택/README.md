@@ -2,6 +2,8 @@
 
 [문제 링크](https://www.acmicpc.net/problem/10828) 
 
+## 시간초과로 틀렸는데 찾아보니 import sys를 쓰고 input 대신 sys.stdin.readline()을 쓰면 시간이 단축된다고 해서 해결함
+
 ### 성능 요약
 
 메모리: 31120 KB, 시간: 52 ms
