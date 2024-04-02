@@ -1,6 +1,6 @@
 # [Silver IV] 체스판 다시 칠하기 - 1018 
 
-### 아래처럼럼 썼다가 cnt.append부분을 c_b, c_w 중에 작은 값만 추가되도록 바꾸니까 되는데 뭐가 다른지 모르겠음. 원래거는 런타임에러 뜨고 cnt.append(min(c_b, c_w))로 바꾸니까 맞음
+### 아래처럼 썼다가 cnt.append부분을 c_b, c_w 중에 작은 값만 추가되도록 바꾸니까 되는데 뭐가 다른지 모르겠음. 원래거는 런타임에러 뜨고 cnt.append(min(c_b, c_w))로 바꾸니까 맞음
 n, m=map(int, input().split()) </br>
 matrix=[]</br>
 cnt=[]</br>
