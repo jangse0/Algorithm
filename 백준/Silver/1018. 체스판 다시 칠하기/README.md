@@ -1,31 +1,31 @@
 # [Silver IV] 체스판 다시 칠하기 - 1018 
 
 ### 아래처럼럼 썼다가 cnt.append부분을 c_b, c_w 중에 작은 값만 추가되도록 바꾸니까 되는데 뭐가 다른지 모르겠음. 원래거는 런타임에러 뜨고 cnt.append(min(c_b, c_w))로 바꾸니까 맞음
-n, m=map(int, input().split())
-matrix=[]
-cnt=[]
-for i in range(n):
-    matrix.append(input())
-    
-for i in range(n-7):
-    for j in range(m-7):
-        c_w=0
-        c_b=0
-        for k in range(i, i+8):
-            for l in range(j, j+8):
-                if (k+l)%2 == 0:
-                    if matrix[k][l]!='W':
-                        c_w+=1
-                    else:
-                        c_b+=1
-                else:
-                    if matrix[k][l]!='W':
-                        c_b+=1
-                    else:
-                        c_w+=1
-        cnt.append(c_w)
-        cnt.append(b_w)
-        
+n, m=map(int, input().split()) </br>
+matrix=[]</br>
+cnt=[]</br>
+for i in range(n):</br>
+    matrix.append(input())</br>
+    </br>
+for i in range(n-7):</br>
+    for j in range(m-7):</br>
+        c_w=0</br>
+        c_b=0</br>
+        for k in range(i, i+8):</br>
+            for l in range(j, j+8):</br>
+                if (k+l)%2 == 0:</br>
+                    if matrix[k][l]!='W':</br>
+                        c_w+=1</br>
+                    else:</br>
+                        c_b+=1</br>
+                else:</br>
+                    if matrix[k][l]!='W':</br>
+                        c_b+=1</br>
+                    else:</br>
+                        c_w+=1</br>
+        cnt.append(c_w)</br>
+        cnt.append(b_w)</br>
+        </br>
 print(min(cnt))
 
 
