@@ -2,9 +2,20 @@
 
 [문제 링크](https://www.acmicpc.net/problem/2750) 
 
+처음에는 아래 코드처럼 풀었는데 선택정렬로 다시 풀었음.
+n=int(input())
+l=[]
+
+for i in range(n):
+    l.append(int(input()))
+
+l.sort()
+for i in range(n):
+    print(l[i])
+
 ### 성능 요약
 
-메모리: 31120 KB, 시간: 80 ms
+메모리: 31120 KB, 시간: 140 ms
 
 ### 분류
 
