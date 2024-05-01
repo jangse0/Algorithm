@@ -1,8 +1,8 @@
-s = int(input())
+n = int(input())
 i = 0
 
-while s >= 0:
+while n >= 0:
     i += 1
-    s -= i
+    n -= i
 
 print(i - 1)
