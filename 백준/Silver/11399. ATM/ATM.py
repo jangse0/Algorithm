@@ -7,3 +7,4 @@ def solve(n):
     
 n=int(input())
 solve(n)
+#예전에 풀었던 코드
