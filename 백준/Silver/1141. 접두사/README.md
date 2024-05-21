@@ -2,6 +2,26 @@
 
 [문제 링크](https://www.acmicpc.net/problem/1141) 
 
+### 처음에는 sorting 안하고 아래 코드처럼 풀었는데 시간초과라고 안뜨고 틀렸다고 뜨는데 왜 틀렸는지 모르겠음.
+n=int(input())
+lst=[]
+cnt=0
+
+for _ in range(n):
+    lst.append(input())
+
+for i in lst:
+    a=True
+    for j in lst:
+        if len(i)<len(j):
+            if i==j[:len(i)]:
+                a=False
+                break
+    if a:
+        cnt+=1
+
+print(cnt)
+
 ### 성능 요약
 
 메모리: 31120 KB, 시간: 44 ms
