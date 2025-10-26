@@ -1,6 +1,6 @@
 # [level 1] 자릿수 더하기 - 12931 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12931?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/12931) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2025년 10월 26일 16:01:16
+2025년 10월 26일 16:02:09
 
 ### 문제 설명
 
